@@ -1,0 +1,14 @@
+build/
+*.iml
+out/
+project/*/
+target/
+*.class
+*.log
+dist/*
+snapshots/*
+.idea/*
+.bloop/*
+.bsp/*
+.metals/*
+**/metals.sbt
