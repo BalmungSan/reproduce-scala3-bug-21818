@@ -8,6 +8,7 @@ lazy val root = (project in file("."))
 lazy val tests = (project in file("tests"))
   .settings(
     scalacOptions ++= Seq(
+      "-Wnonunit-statement",
       "-Wconf:any:verbose",
       "-Wconf:name=UnusedNonUnitValue&msg=Assertion:s"
     ),
